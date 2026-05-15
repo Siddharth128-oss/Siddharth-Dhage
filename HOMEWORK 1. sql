@@ -14,10 +14,10 @@ CREATE TABLE students (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('ZulKar-Nain Khan', 19, 'Darbar Chowk, Ahmednagar', 85, 90, 88, 92, 355, 88, 88.75);
+INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Samarth Harishchandre', 19, 'Rahuri ,Ahmednagar ', 85, 90, 88, 92, 355, 88, 88.75);
 
-INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Shahid Sayyed', 19, 'Darga Daira, Ahmednagar', 78, 80, 75, 81, 314, 78, 78.5);
+INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Rishikesh Tarta', 19, 'MPKV Rahuri ,Ahmednagar ', 78, 80, 75, 81, 314, 78, 78.5);
 
-INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Pratik Gawali', 22, 'Bhingar, Nagardawale', 90, 95, 89, 91, 365, 91, 91.25);
+INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Prashant Patara', 22, 'Dhamori, Vambori Phata ', 90, 95, 89, 91, 365, 91, 91.25);
 
 SELECT * FROM students;
