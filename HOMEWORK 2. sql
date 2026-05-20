@@ -1,0 +1,10 @@
+SELECT DISTINCT ArtistId FROM Albums;
+SELECT DISTINCT AlbumId FROM Albums;
+SELECT COUNT(ArtistId) FROM Albums;
+SELECT COUNT(AlbumId) FROM Albums;
+SELECT * FROM Albums WHERE ArtistId <= 90;
+SELECT ArtistId FROM Albums WHERE Title='Chemical Wedding';
+SELECT AlbumId, ArtistId FROM Albums;
+SELECT Title, AlbumId FROM Albums;
+SELECT * FROM Albums WHERE AlbumId >= 90 ORDER BY AlbumId DESC;
+SELECT * FROM Albums WHERE AlbumId <= 90 ORDER BY AlbumId ASC;
